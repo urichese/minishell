@@ -12,7 +12,7 @@
 
 #include "minishell.h"
 
-typedef	struct	s_expander
+typedef struct s_expander
 {
 	size_t			str_i;
 	t_state			state;

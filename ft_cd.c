@@ -14,7 +14,7 @@
 
 char	*get_cwd_path(char *caller)
 {
-	char *cwd;
+	char	*cwd;
 
 	cwd = getcwd(0, 0);
 	if (!cwd)
@@ -73,6 +73,7 @@ char	*get_new_pwd(char *path, t_bool is_canon_path, t_bool is_abs_path)
 	}
 	return (new_pwd);
 }
+
 int	change_dir_process(char *cd_path, const char *arg, t_bool is_canon_path)
 {
 	int					res;
@@ -184,7 +185,7 @@ void	add_slash_path_front(char *path, char **res)
 
 void	ft_safe_free_split(char ***target)
 {
-	size_t index;
+	size_t	index;
 
 	index = 0;
 	if (!*target)
@@ -247,7 +248,7 @@ char	*set_cd_path(const char *arg, t_bool *is_canon_path)
 const char	*set_cd_destination(char **args)
 {
 	t_environments	*home_env;
-	size_t	index;
+	size_t			index;
 
 	index = 0;
 	while (args[index])

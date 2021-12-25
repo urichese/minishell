@@ -95,6 +95,7 @@ int	path_search(char *path, char *name, char *const argv[])
 	t_bool	got_eacces;
 	char	*p;
 	char	*startp;
+	int		argc;
 
 	p = path;
 	script_argv = 0;
@@ -102,36 +103,36 @@ int	path_search(char *path, char *name, char *const argv[])
 	got_eacces = 0;
 	do
 	{
-		path = p;
-		p = ft_strchr (path, ':');
-		if (p == path)
-			startp = name + 1;
-		else
-			startp = (char *) ft_memcpy (name - (p - path), path, p - path);
-		execve (startp, argv, 0);
-		if (errno == ENOEXEC)
+	path = p;
+	p = ft_strchr (path, ':');
+	if (p == path)
+		startp = name + 1;
+	else
+		startp = (char *) ft_memcpy (name - (p - path), path, p - path);
+	execve (startp, argv, 0);
+	if (errno == ENOEXEC)
+	{
+		if (script_argv == 0)
 		{
+			argc = 0;
+			while (argv[argc++])
+				;
+			size_t arglen = (argc + 1) * sizeof (char *);
+			script_argv_malloc = malloc (arglen);
+			script_argv = script_argv_malloc;
 			if (script_argv == 0)
 			{
-				int argc = 0;
-				while (argv[argc++])
-					;
-				size_t arglen = (argc + 1) * sizeof (char *);
-				script_argv_malloc = malloc (arglen);
-				script_argv = script_argv_malloc;
-				if (script_argv == 0)
-				{
-					got_eacces = 0;
-					break;
-				}
-				for_scripts(startp, argv, argc, script_argv);
+				got_eacces = 0;
+				break;
 			}
-			execve (script_argv[0], script_argv, 0);
+			for_scripts(startp, argv, argc, script_argv);
 		}
-		if (errno == EACCES)
-			got_eacces = 1;
-		if (errno == ETIMEDOUT)
-			break ;
+		execve (script_argv[0], script_argv, 0);
+	}
+	if (errno == EACCES)
+		got_eacces = 1;
+	if (errno == ETIMEDOUT)
+		break ;
 	}
 	while (*p++ != '\0');
 	free (script_argv_malloc);

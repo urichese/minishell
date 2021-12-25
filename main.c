@@ -90,13 +90,11 @@ void	pwd_init(void)
 
 int	main(void)
 {
-	char	*line;
+	char				*line;
 	extern t_statuses	g_states;
 
 	g_states.env = fill_envs();
 	pwd_init();
-//	shlvl_init();
-//	old_pwd_init();
 	while (!g_states.is_exited)
 	{
 		line = readline("minishell\u263A> ");
