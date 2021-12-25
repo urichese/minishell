@@ -187,5 +187,8 @@ t_bool			ft_atoi_with_limit(const char *str, int *return_value);
 void			ft_exec(char *line);
 void			err_ext(void);
 int				ft_execvp(const char *file, char *const argv[]);
+void			env_mergesort(t_environments **lst, int (*cmp)());
+static int		compare_env(t_environments *left, t_environments *right);
+static void		print_env(t_environments *env);
 
 #endif

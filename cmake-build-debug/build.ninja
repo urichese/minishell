@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/urichese/Desktop/minishell/cmake-build-debug/
+cmake_ninja_workdir = /Users/urichese/Desktop/gg/cmake-build-debug/
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/urichese/Desktop/minishell/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/urichese/Desktop/minishell -B/Users/urichese/Desktop/minishell/cmake-build-debug
+  COMMAND = cd /Users/urichese/Desktop/gg/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/urichese/Desktop/gg -B/Users/urichese/Desktop/gg/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -57,7 +57,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/urichese/Desktop/minishell/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/urichese/Desktop/gg/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -72,7 +72,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_minishell: phony || CMakeFiles/minishell.dir
 
-build CMakeFiles/minishell.dir/main.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/main.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/main.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/main.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/main.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -80,7 +80,7 @@ build CMakeFiles/minishell.dir/main.c.o: C_COMPILER__minishell_Debug /Users/uric
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/error.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/error.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/error.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/error.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/error.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -88,7 +88,7 @@ build CMakeFiles/minishell.dir/error.c.o: C_COMPILER__minishell_Debug /Users/uri
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/command_funcs.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/command_funcs.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/command_funcs.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/command_funcs.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/command_funcs.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -96,7 +96,7 @@ build CMakeFiles/minishell.dir/command_funcs.c.o: C_COMPILER__minishell_Debug /U
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/minilibft/ft_itoa.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/minilibft/ft_itoa.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/minilibft/ft_itoa.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/minilibft/ft_itoa.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/minilibft/ft_itoa.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -104,7 +104,7 @@ build CMakeFiles/minishell.dir/minilibft/ft_itoa.c.o: C_COMPILER__minishell_Debu
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/minilibft/ft_atoi.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/minilibft/ft_atoi.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/minilibft/ft_atoi.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/minilibft/ft_atoi.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/minilibft/ft_atoi.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -112,7 +112,7 @@ build CMakeFiles/minishell.dir/minilibft/ft_atoi.c.o: C_COMPILER__minishell_Debu
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/ft_exec_paths.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/ft_exec_paths.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/ft_exec_paths.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/ft_exec_paths.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/ft_exec_paths.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -120,7 +120,7 @@ build CMakeFiles/minishell.dir/ft_exec_paths.c.o: C_COMPILER__minishell_Debug /U
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/ft_echo.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/ft_echo.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/ft_echo.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/ft_echo.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/ft_echo.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -128,7 +128,7 @@ build CMakeFiles/minishell.dir/ft_echo.c.o: C_COMPILER__minishell_Debug /Users/u
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/ft_exec.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/ft_exec.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/ft_exec.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/ft_exec.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/ft_exec.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -136,7 +136,7 @@ build CMakeFiles/minishell.dir/ft_exec.c.o: C_COMPILER__minishell_Debug /Users/u
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/minilibft/ft_strlen.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/minilibft/ft_strlen.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/minilibft/ft_strlen.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/minilibft/ft_strlen.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/minilibft/ft_strlen.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -144,7 +144,7 @@ build CMakeFiles/minishell.dir/minilibft/ft_strlen.c.o: C_COMPILER__minishell_De
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/minilibft/ft_isalnum.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/minilibft/ft_isalnum.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/minilibft/ft_isalnum.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/minilibft/ft_isalnum.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/minilibft/ft_isalnum.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -152,7 +152,7 @@ build CMakeFiles/minishell.dir/minilibft/ft_isalnum.c.o: C_COMPILER__minishell_D
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/ft_parser.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/ft_parser.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/ft_parser.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/ft_parser.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/ft_parser.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -160,7 +160,7 @@ build CMakeFiles/minishell.dir/ft_parser.c.o: C_COMPILER__minishell_Debug /Users
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/ft_lexer.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/ft_lexer.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/ft_lexer.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/ft_lexer.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/ft_lexer.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -168,7 +168,7 @@ build CMakeFiles/minishell.dir/ft_lexer.c.o: C_COMPILER__minishell_Debug /Users/
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/minilibft/ft_isdigit.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/minilibft/ft_isdigit.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/minilibft/ft_isdigit.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/minilibft/ft_isdigit.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/minilibft/ft_isdigit.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -176,7 +176,7 @@ build CMakeFiles/minishell.dir/minilibft/ft_isdigit.c.o: C_COMPILER__minishell_D
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/ft_expander.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/ft_expander.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/ft_expander.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/ft_expander.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/ft_expander.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -184,7 +184,7 @@ build CMakeFiles/minishell.dir/ft_expander.c.o: C_COMPILER__minishell_Debug /Use
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/builtins.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/builtins.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/builtins.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/builtins.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/builtins.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -192,7 +192,7 @@ build CMakeFiles/minishell.dir/builtins.c.o: C_COMPILER__minishell_Debug /Users/
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/minilibft/ft_strcmp.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/minilibft/ft_strcmp.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/minilibft/ft_strcmp.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/minilibft/ft_strcmp.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/minilibft/ft_strcmp.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -200,7 +200,7 @@ build CMakeFiles/minishell.dir/minilibft/ft_strcmp.c.o: C_COMPILER__minishell_De
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/ft_exit.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/ft_exit.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/ft_exit.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/ft_exit.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/ft_exit.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -208,7 +208,7 @@ build CMakeFiles/minishell.dir/ft_exit.c.o: C_COMPILER__minishell_Debug /Users/u
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/ft_cd.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/ft_cd.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/ft_cd.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/ft_cd.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/ft_cd.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -216,7 +216,7 @@ build CMakeFiles/minishell.dir/ft_cd.c.o: C_COMPILER__minishell_Debug /Users/uri
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/minilibft/ft_memcpy.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/minilibft/ft_memcpy.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/minilibft/ft_memcpy.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/minilibft/ft_memcpy.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/minilibft/ft_memcpy.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -224,7 +224,7 @@ build CMakeFiles/minishell.dir/minilibft/ft_memcpy.c.o: C_COMPILER__minishell_De
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/minilibft/ft_strlcpy.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/minilibft/ft_strlcpy.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/minilibft/ft_strlcpy.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/minilibft/ft_strlcpy.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/minilibft/ft_strlcpy.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -232,7 +232,7 @@ build CMakeFiles/minishell.dir/minilibft/ft_strlcpy.c.o: C_COMPILER__minishell_D
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/minilibft/ft_strchr.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/minilibft/ft_strchr.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/minilibft/ft_strchr.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/minilibft/ft_strchr.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/minilibft/ft_strchr.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -240,7 +240,7 @@ build CMakeFiles/minishell.dir/minilibft/ft_strchr.c.o: C_COMPILER__minishell_De
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/minilibft/ft_strjoin.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/minilibft/ft_strjoin.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/minilibft/ft_strjoin.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/minilibft/ft_strjoin.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/minilibft/ft_strjoin.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -248,7 +248,7 @@ build CMakeFiles/minishell.dir/minilibft/ft_strjoin.c.o: C_COMPILER__minishell_D
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/ft_export.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/ft_export.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/ft_export.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/ft_export.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/ft_export.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -256,7 +256,7 @@ build CMakeFiles/minishell.dir/ft_export.c.o: C_COMPILER__minishell_Debug /Users
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/env_utils.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/env_utils.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/env_utils.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/env_utils.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/env_utils.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -264,7 +264,7 @@ build CMakeFiles/minishell.dir/env_utils.c.o: C_COMPILER__minishell_Debug /Users
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/minilibft/ft_substr.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/minilibft/ft_substr.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/minilibft/ft_substr.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/minilibft/ft_substr.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/minilibft/ft_substr.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -272,7 +272,7 @@ build CMakeFiles/minishell.dir/minilibft/ft_substr.c.o: C_COMPILER__minishell_De
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/ft_pwd.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/ft_pwd.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/ft_pwd.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/ft_pwd.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/ft_pwd.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -280,7 +280,7 @@ build CMakeFiles/minishell.dir/ft_pwd.c.o: C_COMPILER__minishell_Debug /Users/ur
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/minilibft/ft_split.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/minilibft/ft_split.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/minilibft/ft_split.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/minilibft/ft_split.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/minilibft/ft_split.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -288,7 +288,7 @@ build CMakeFiles/minishell.dir/minilibft/ft_split.c.o: C_COMPILER__minishell_Deb
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/minilibft/ft_strdup.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/minilibft/ft_strdup.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/minilibft/ft_strdup.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/minilibft/ft_strdup.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/minilibft/ft_strdup.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -296,7 +296,7 @@ build CMakeFiles/minishell.dir/minilibft/ft_strdup.c.o: C_COMPILER__minishell_De
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/minilibft/ft_strrchr.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/minilibft/ft_strrchr.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/minilibft/ft_strrchr.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/minilibft/ft_strrchr.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/minilibft/ft_strrchr.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -304,7 +304,7 @@ build CMakeFiles/minishell.dir/minilibft/ft_strrchr.c.o: C_COMPILER__minishell_D
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/minilibft/ft_strncmp.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/minilibft/ft_strncmp.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/minilibft/ft_strncmp.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/minilibft/ft_strncmp.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/minilibft/ft_strncmp.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -312,7 +312,7 @@ build CMakeFiles/minishell.dir/minilibft/ft_strncmp.c.o: C_COMPILER__minishell_D
   TARGET_COMPILE_PDB = CMakeFiles/minishell.dir/
   TARGET_PDB = minishell.pdb
 
-build CMakeFiles/minishell.dir/ft_unset.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/minishell/ft_unset.c || cmake_object_order_depends_target_minishell
+build CMakeFiles/minishell.dir/ft_unset.c.o: C_COMPILER__minishell_Debug /Users/urichese/Desktop/gg/ft_unset.c || cmake_object_order_depends_target_minishell
   DEP_FILE = CMakeFiles/minishell.dir/ft_unset.c.o.d
   FLAGS = -lreadline -lncurses -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
   OBJECT_DIR = CMakeFiles/minishell.dir
@@ -346,7 +346,7 @@ build minishell: C_EXECUTABLE_LINKER__minishell_Debug CMakeFiles/minishell.dir/m
 # =============================================================================
 
 #############################################
-# Folder: /Users/urichese/Desktop/minishell/cmake-build-debug
+# Folder: /Users/urichese/Desktop/gg/cmake-build-debug
 
 build all: phony minishell
 

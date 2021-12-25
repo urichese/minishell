@@ -42,7 +42,7 @@ rule C_EXECUTABLE_LINKER__minishell_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/urichese/Desktop/minishell -B/Users/urichese/Desktop/minishell/cmake-build-debug
+  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/urichese/Desktop/gg -B/Users/urichese/Desktop/gg/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

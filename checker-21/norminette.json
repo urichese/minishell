@@ -1,0 +1,425 @@
+{
+    "files": [
+        {
+            "name": "builtins.c",
+            "ctime": 1640143278.0,
+            "mtime": 1640143278.0
+        },
+        {
+            "name": "cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c",
+            "ctime": 1640454713.0,
+            "mtime": 1640454713.0
+        },
+        {
+            "name": "command_funcs.c",
+            "ctime": 1639592988.0,
+            "mtime": 1639592988.0
+        },
+        {
+            "name": "env_utils.c",
+            "ctime": 1640143516.0,
+            "mtime": 1640454162.0
+        },
+        {
+            "name": "error.c",
+            "ctime": 1640143608.0,
+            "mtime": 1640143608.0
+        },
+        {
+            "name": "ft_cd.c",
+            "ctime": 1640144084.0,
+            "mtime": 1640455319.0
+        },
+        {
+            "name": "ft_echo.c",
+            "ctime": 1639939554.0,
+            "mtime": 1640454277.0
+        },
+        {
+            "name": "ft_exec.c",
+            "ctime": 1640147678.0,
+            "mtime": 1640147678.0
+        },
+        {
+            "name": "ft_exec_paths.c",
+            "ctime": 1640147726.0,
+            "mtime": 1640455608.0
+        },
+        {
+            "name": "ft_exit.c",
+            "ctime": 1639939570.0,
+            "mtime": 1639939570.0
+        },
+        {
+            "name": "ft_expander.c",
+            "ctime": 1640144916.0,
+            "mtime": 1640455378.0
+        },
+        {
+            "name": "ft_export.c",
+            "ctime": 1640145042.0,
+            "mtime": 1640145042.0
+        },
+        {
+            "name": "ft_lexer.c",
+            "ctime": 1640145114.0,
+            "mtime": 1640145114.0
+        },
+        {
+            "name": "ft_parser.c",
+            "ctime": 1640146770.0,
+            "mtime": 1640146770.0
+        },
+        {
+            "name": "ft_pwd.c",
+            "ctime": 1640145198.0,
+            "mtime": 1640145198.0
+        },
+        {
+            "name": "ft_unset.c",
+            "ctime": 1640143244.0,
+            "mtime": 1640143244.0
+        },
+        {
+            "name": "main.c",
+            "ctime": 1640145258.0,
+            "mtime": 1640454893.0
+        },
+        {
+            "name": "minilibft/ft_atoi.c",
+            "ctime": 1640146770.0,
+            "mtime": 1640146770.0
+        },
+        {
+            "name": "minilibft/ft_isalnum.c",
+            "ctime": 1640146796.0,
+            "mtime": 1640146796.0
+        },
+        {
+            "name": "minilibft/ft_isdigit.c",
+            "ctime": 1640146810.0,
+            "mtime": 1640146810.0
+        },
+        {
+            "name": "minilibft/ft_itoa.c",
+            "ctime": 1640146820.0,
+            "mtime": 1640146820.0
+        },
+        {
+            "name": "minilibft/ft_memcpy.c",
+            "ctime": 1640146838.0,
+            "mtime": 1640146838.0
+        },
+        {
+            "name": "minilibft/ft_split.c",
+            "ctime": 1640147010.0,
+            "mtime": 1640147010.0
+        },
+        {
+            "name": "minilibft/ft_strchr.c",
+            "ctime": 1640147030.0,
+            "mtime": 1640147030.0
+        },
+        {
+            "name": "minilibft/ft_strcmp.c",
+            "ctime": 1640147042.0,
+            "mtime": 1640147042.0
+        },
+        {
+            "name": "minilibft/ft_strdup.c",
+            "ctime": 1640147052.0,
+            "mtime": 1640147052.0
+        },
+        {
+            "name": "minilibft/ft_strjoin.c",
+            "ctime": 1640147064.0,
+            "mtime": 1640147064.0
+        },
+        {
+            "name": "minilibft/ft_strlcpy.c",
+            "ctime": 1640147074.0,
+            "mtime": 1640147074.0
+        },
+        {
+            "name": "minilibft/ft_strlen.c",
+            "ctime": 1640147088.0,
+            "mtime": 1640147088.0
+        },
+        {
+            "name": "minilibft/ft_strncmp.c",
+            "ctime": 1640147104.0,
+            "mtime": 1640147104.0
+        },
+        {
+            "name": "minilibft/ft_strrchr.c",
+            "ctime": 1640144646.0,
+            "mtime": 1640144646.0
+        },
+        {
+            "name": "minilibft/ft_substr.c",
+            "ctime": 1640147124.0,
+            "mtime": 1640147124.0
+        },
+        {
+            "name": "minishell.h",
+            "ctime": 1639948314.0,
+            "mtime": 1640456900.0
+        }
+    ],
+    "result": {
+        "builtins.c": {
+            "status": "ok",
+            "line": "builtins.c: OK!"
+        },
+        "cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c": {
+            "status": "error",
+            "line": "cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c: Error!",
+            "errors": [
+                "\u001b[31mError: Unrecognized token line 432, col 455\u001b[0m"
+            ],
+            "warnings": [
+                "Missing or invalid header. Header are being reintroduced as a mandatory part of your files. This is not yet an error."
+            ]
+        },
+        "command_funcs.c": {
+            "status": "error",
+            "line": "command_funcs.c: Error!",
+            "errors": [
+                "Error: TOO_MANY_LINES       (line:  49, col:   1):\tFunction has more than 25 lines"
+            ]
+        },
+        "env_utils.c": {
+            "status": "error",
+            "line": "env_utils.c: Error!",
+            "errors": [
+                "Error: TOO_MANY_LINES       (line:  81, col:   1):\tFunction has more than 25 lines",
+                "Error: TOO_MANY_FUNCS       (line: 108, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 125, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 150, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 173, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 202, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 227, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 232, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 248, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 253, col:   1):\tToo many functions in file"
+            ]
+        },
+        "error.c": {
+            "status": "ok",
+            "line": "error.c: OK!"
+        },
+        "ft_cd.c": {
+            "status": "error",
+            "line": "ft_cd.c: Error!",
+            "errors": [
+                "Error: LINE_TOO_LONG        (line:  21, col: 103):\tline too long",
+                "Error: TOO_MANY_FUNCS       (line: 117, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 134, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 145, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 169, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 186, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 203, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 221, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 248, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 271, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 283, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 304, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 325, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 353, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 367, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 395, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 415, col:   1):\tToo many functions in file"
+            ]
+        },
+        "ft_echo.c": {
+            "status": "ok",
+            "line": "ft_echo.c: OK!"
+        },
+        "ft_exec.c": {
+            "status": "error",
+            "line": "ft_exec.c: Error!",
+            "errors": [
+                "Error: TOO_MANY_FUNCS       (line:  96, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 113, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 120, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 129, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 137, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 144, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 158, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 170, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 186, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 210, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 228, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 248, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 274, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 289, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 320, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 329, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 346, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 372, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 391, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 408, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 423, col:   1):\tToo many functions in file"
+            ]
+        },
+        "ft_exec_paths.c": {
+            "status": "error",
+            "line": "ft_exec_paths.c: Error!",
+            "errors": [
+                "Error: TOO_MANY_LINES       (line:  63, col:   1):\tFunction has more than 25 lines",
+                "Error: TOO_MANY_VARS_FUNC   (line:  98, col:   1):\tToo many variables declarations in a function",
+                "Error: WRONG_SCOPE_VAR      (line: 120, col:   1):\tVariable declared in incorrect scope",
+                "Error: SPACE_REPLACE_TAB    (line: 120, col:  19):\tFound space when expecting tab",
+                "Error: DECL_ASSIGN_LINE     (line: 120, col:  27):\tDeclaration and assignation on a single line",
+                "Error: SPACE_AFTER_KW       (line: 126, col:  17):\tMissing space after keyword",
+                "Error: TOO_MANY_LINES       (line: 136, col:   1):\tFunction has more than 25 lines",
+                "Error: TOO_MANY_TAB         (line: 136, col:   1):\tExtra tabs for indent level",
+                "Error: TOO_MANY_TAB         (line: 137, col:   1):\tExtra tabs for indent level",
+                "Error: WRONG_SCOPE          (line: 137, col:   1):\tStatement is in incorrect scope",
+                "Error: EXP_NEWLINE          (line: 137, col:  25):\tExpected newline after control structure",
+                "Error: TOO_MANY_TAB         (line: 138, col:   1):\tExtra tabs for indent level",
+                "Error: TOO_MANY_TAB         (line: 139, col:   1):\tExtra tabs for indent level",
+                "Error: NEWLINE_PRECEDES_FUNC (line: 140, col:   1):\tFunctions must be separated by a newline"
+            ]
+        },
+        "ft_exit.c": {
+            "status": "ok",
+            "line": "ft_exit.c: OK!"
+        },
+        "ft_expander.c": {
+            "status": "error",
+            "line": "ft_expander.c: Error!",
+            "errors": [
+                "Error: TOO_MANY_FUNCS       (line: 100, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 120, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 137, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 158, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 176, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_LINES       (line: 209, col:   1):\tFunction has more than 25 lines",
+                "Error: TOO_MANY_FUNCS       (line: 211, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 233, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 241, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 253, col:   1):\tToo many functions in file"
+            ]
+        },
+        "ft_export.c": {
+            "status": "ok",
+            "line": "ft_export.c: OK!"
+        },
+        "ft_lexer.c": {
+            "status": "error",
+            "line": "ft_lexer.c: Error!",
+            "errors": [
+                "Error: TOO_MANY_FUNCS       (line:  93, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 118, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 136, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 151, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 169, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 195, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 223, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 240, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 251, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 272, col:   1):\tToo many functions in file"
+            ]
+        },
+        "ft_parser.c": {
+            "status": "error",
+            "line": "ft_parser.c: Error!",
+            "errors": [
+                "Error: TOO_MANY_FUNCS       (line:  83, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 101, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 117, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 133, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 144, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 161, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 175, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 203, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 233, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 243, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 257, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 278, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 306, col:   1):\tToo many functions in file",
+                "Error: TOO_MANY_FUNCS       (line: 315, col:   1):\tToo many functions in file"
+            ]
+        },
+        "ft_pwd.c": {
+            "status": "ok",
+            "line": "ft_pwd.c: OK!"
+        },
+        "ft_unset.c": {
+            "status": "ok",
+            "line": "ft_unset.c: OK!"
+        },
+        "main.c": {
+            "status": "ok",
+            "line": "main.c: OK!"
+        },
+        "minilibft/ft_atoi.c": {
+            "status": "error",
+            "line": "minilibft/ft_atoi.c: Error!",
+            "errors": [
+                "Error: TOO_MANY_LINES       (line:  73, col:   1):\tFunction has more than 25 lines"
+            ]
+        },
+        "minilibft/ft_isalnum.c": {
+            "status": "ok",
+            "line": "minilibft/ft_isalnum.c: OK!"
+        },
+        "minilibft/ft_isdigit.c": {
+            "status": "ok",
+            "line": "minilibft/ft_isdigit.c: OK!"
+        },
+        "minilibft/ft_itoa.c": {
+            "status": "ok",
+            "line": "minilibft/ft_itoa.c: OK!"
+        },
+        "minilibft/ft_memcpy.c": {
+            "status": "ok",
+            "line": "minilibft/ft_memcpy.c: OK!"
+        },
+        "minilibft/ft_split.c": {
+            "status": "ok",
+            "line": "minilibft/ft_split.c: OK!"
+        },
+        "minilibft/ft_strchr.c": {
+            "status": "ok",
+            "line": "minilibft/ft_strchr.c: OK!"
+        },
+        "minilibft/ft_strcmp.c": {
+            "status": "ok",
+            "line": "minilibft/ft_strcmp.c: OK!"
+        },
+        "minilibft/ft_strdup.c": {
+            "status": "ok",
+            "line": "minilibft/ft_strdup.c: OK!"
+        },
+        "minilibft/ft_strjoin.c": {
+            "status": "ok",
+            "line": "minilibft/ft_strjoin.c: OK!"
+        },
+        "minilibft/ft_strlcpy.c": {
+            "status": "ok",
+            "line": "minilibft/ft_strlcpy.c: OK!"
+        },
+        "minilibft/ft_strlen.c": {
+            "status": "ok",
+            "line": "minilibft/ft_strlen.c: OK!"
+        },
+        "minilibft/ft_strncmp.c": {
+            "status": "ok",
+            "line": "minilibft/ft_strncmp.c: OK!"
+        },
+        "minilibft/ft_strrchr.c": {
+            "status": "ok",
+            "line": "minilibft/ft_strrchr.c: OK!"
+        },
+        "minilibft/ft_substr.c": {
+            "status": "ok",
+            "line": "minilibft/ft_substr.c: OK!"
+        },
+        "minishell.h": {
+            "status": "ok",
+            "line": "minishell.h: OK!"
+        }
+    }
+}
