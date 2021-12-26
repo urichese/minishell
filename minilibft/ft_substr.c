@@ -12,7 +12,7 @@
 
 #include "../minishell.h"
 
-size_t	true_size(size_t given, size_t source, unsigned int	start)
+size_t	true_size(size_t given, size_t source, unsigned int start)
 {
 	size_t	true_src;
 

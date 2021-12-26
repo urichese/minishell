@@ -30,7 +30,7 @@ t_environments	*get_env(const char *name)
 }
 
 static void	set_env_value(t_environments *env,
-							 const char *new_value, t_bool append_flag)
+				const char *new_value, t_bool append_flag)
 {
 	char	*old_value;
 
